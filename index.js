@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const cors = require("cors");
 
 //Database connection
-mongoose.connect("mongodb://localhost/notes");
+mongoose.connect("mongodb://127.0.0.1:27017/notes");
 
 //Set port
 const port = 8080;
